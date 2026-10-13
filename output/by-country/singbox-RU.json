@@ -30,6 +30,32 @@
     {
       "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
+      "server": "104.21.31.137",
+      "server_port": 443,
+      "uuid": "59c70620-d2f3-4255-9d6f-f4c5103d64ce",
+      "tls": {
+        "enabled": true,
+        "server_name": "59fssIBE-SDDrRs3qW83QQZz0H1NT-o.q7qwsxItB6BYi5nMTa4naAlz.woRkErs.deV",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vl/FpYFoMlg8sRpgV7SSaOaRYa3fagqGu?ed",
+        "headers": {
+          "Host": "59fssibe-sddrrs3qw83qqzz0h1nt-o.q7qwsxitb6byi5nmta4naalz.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
       "server": "freede.aiage.work",
       "server_port": 443,
       "uuid": "6338c01a-310e-42c3-bf4f-2a20e161054b",
@@ -49,16 +75,20 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
-      "server": "130.49.189.158",
-      "server_port": 43558,
-      "method": "chacha20-ietf-poly1305",
-      "password": "52+ggoCvKFVJyT1NDiuWOZw2rHIvAg3tgqgJl8aeCwY="
+      "type": "hysteria2",
+      "tag": "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
+      "server": "spainspeedboostjbl88.qcloud.surf",
+      "server_port": 27313,
+      "password": "4ad3dbf5-2005-4d96-b56c-a0ca9905cab6",
+      "tls": {
+        "enabled": true,
+        "server_name": "spainspeedboostjbl88.qcloud.surf",
+        "insecure": false
+      }
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
+      "tag": "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
       "server": "193.233.74.6",
       "server_port": 8444,
       "uuid": "f55e9aba-7b14-4f6f-b59a-d5b3d45c9309",
@@ -67,7 +97,7 @@
         "server_name": "github.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -78,18 +108,6 @@
       "transport": {
         "type": "grpc",
         "service_name": "GunService"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
-      "server": "194.87.118.184",
-      "server_port": 2053,
-      "password": "7ab3c77e-8fcc-4848-918f-cae3d4eac794",
-      "tls": {
-        "enabled": true,
-        "server_name": "match-stream.lovkisport.blog",
-        "insecure": true
       }
     },
     {
