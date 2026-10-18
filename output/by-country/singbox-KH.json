@@ -5,21 +5,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - xiaohe",
-      "server": "178.236.16.98",
-      "server_port": 35728,
-      "uuid": "a00d89f6-ab7e-4e30-a5e5-54c701d62c93",
+      "tag": "🇰🇭 柬埔寨 (Cambodia) 01 - xiaohe",
+      "server": "38.54.93.50",
+      "server_port": 19350,
+      "uuid": "c752c174-41d2-41c3-ac2a-e4c0df9e5482",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "yahoo.com",
+        "server_name": "www.tesla.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng",
-          "short_id": "69a2"
+          "public_key": "rlv4tZSKrdgfV2vwCdspLThdjOhNGvuUMMARHbxNnHs",
+          "short_id": "9195fcf93a"
         }
       }
     },
@@ -28,14 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - xiaohe"
+        "🇰🇭 柬埔寨 (Cambodia) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - xiaohe"
+        "🇰🇭 柬埔寨 (Cambodia) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
