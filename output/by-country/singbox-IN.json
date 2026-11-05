@@ -55,27 +55,26 @@
       }
     },
     {
-      "type": "hysteria2",
+      "type": "vless",
       "tag": "🇮🇳 印度 (India) 04 - xiaohe",
-      "server": "144.24.109.215",
-      "server_port": 51000,
-      "password": "d105c6ae-621b-47c1-b85b-075fd6a39aca",
+      "server": "122.176.216.52",
+      "server_port": 443,
+      "uuid": "16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88",
       "tls": {
         "enabled": true,
-        "server_name": "cn.cremedelamer.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇮🇳 印度 (India) 05 - xiaohe",
-      "server": "in002.zestapp778.com",
-      "server_port": 42733,
-      "password": "5t6i121em5lkmsmk",
-      "tls": {
-        "enabled": true,
-        "server_name": "in002.zestapp778.com",
-        "insecure": false
+        "server_name": "app-6ada5023.deploy.meerasolution.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws/16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88",
+        "headers": {
+          "Host": "app-6ada5023.deploy.meerasolution.com"
+        }
       }
     },
     {
@@ -86,8 +85,7 @@
         "🇮🇳 印度 (India) 01 - xiaohe",
         "🇮🇳 印度 (India) 02 - xiaohe",
         "🇮🇳 印度 (India) 03 - xiaohe",
-        "🇮🇳 印度 (India) 04 - xiaohe",
-        "🇮🇳 印度 (India) 05 - xiaohe"
+        "🇮🇳 印度 (India) 04 - xiaohe"
       ]
     },
     {
@@ -97,8 +95,7 @@
         "🇮🇳 印度 (India) 01 - xiaohe",
         "🇮🇳 印度 (India) 02 - xiaohe",
         "🇮🇳 印度 (India) 03 - xiaohe",
-        "🇮🇳 印度 (India) 04 - xiaohe",
-        "🇮🇳 印度 (India) 05 - xiaohe"
+        "🇮🇳 印度 (India) 04 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
